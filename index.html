@@ -1,61 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>BurpeePlaza</title>
 
 <style>
 
 body{
-background:black;
-color:white;
+background:#000;
+color:#fff;
 font-family:monospace;
 display:flex;
 justify-content:center;
 align-items:center;
 height:100vh;
 text-align:center;
+margin:0;
 }
 
 .container{
 max-width:600px;
+padding:20px;
 }
 
 h1{
 font-size:42px;
 letter-spacing:4px;
+margin-bottom:10px;
 }
 
 .tagline{
-margin-top:10px;
 font-size:14px;
-opacity:0.8;
+opacity:0.85;
+margin-bottom:20px;
 }
 
-.link{
-margin-top:40px;
+.protocol{
+font-size:14px;
+opacity:0.85;
+line-height:1.6;
+margin-bottom:40px;
+}
+
+.waitlist{
 font-size:16px;
+margin-bottom:40px;
 }
 
-.link a{
+.waitlist a{
 color:white;
 text-decoration:none;
 border-bottom:1px solid transparent;
-transition:0.2s;
+transition:0.2s ease;
 }
 
-.link a:hover{
+.waitlist a:hover{
 border-bottom:1px solid white;
 }
 
 .contact{
-margin-top:30px;
 font-size:13px;
-opacity:0.7;
+opacity:0.65;
+}
+
+.contact a{
+color:white;
+text-decoration:none;
 }
 
 </style>
+
 </head>
 
 <body>
@@ -68,19 +85,19 @@ opacity:0.7;
 ELIMINATE UNDISCIPLINED EFFORT
 </div>
 
-<p>
+<div class="protocol">
 Burpee pacing protocol.<br>
 Version 1 launching soon.
-</p>
+</div>
 
-<div class="link">
-<a href="https://forms.gle/nG1MQoRrkYapG8UG9" target="_blank">
-Join waiting list
+<div class="waitlist">
+<a href="https://forms.gle/N8ras4u6zywVyF4k7" target="_blank">
+Join the waiting list
 </a>
 </div>
 
 <div class="contact">
-Contact: contact@burpeeplaza.com
+Contact: <a href="mailto:contact@burpeeplaza.com">contact@burpeeplaza.com</a>
 </div>
 
 </div>
